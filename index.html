@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- Header Section -->
+<header class="navbar">
+    <div class="logo">MoPortfolio</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <div class="decko">
+        <img src="images.jpg" alt="a young man">
+    </div>
+        
+
+    <main>
+        <!-- Home / Intro Section -->
+
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Moses</span></h1>
+                <p>A passionate Front-End Developer crafting beautiful & responsive web experiences.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+            <p>I build clean, modern, and user-friendly websites. With a strong eye for detail and a love for semantic code, 
+                I bridge the gap between design and functionality to create seamless digital products.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript</li>
+                <li>Flexbox & Grid</li>
+                <li>Responsive Design</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section (Grid Layout) -->
+        <section id="projects" class="projects-section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A fully responsive online store featuring complex layouts and product filtering.</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Weather Application</h3>
+                        <p>A sleek web app connecting to a live API to provide real-time updates.</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="card-image"></div>
+                    <div class="card-content">
+                        <h3>Task Dashboard</h3>
+                        <p>An interactive productivity tracker utilizing advanced state management layouts.</p>
+                        <a href="#" class="btn-secondary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Mo Alex. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
